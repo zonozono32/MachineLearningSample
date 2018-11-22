@@ -32,7 +32,7 @@ class GeneticAlgorithm():
         self.indiv = []
         for i in range(N):
             self.indiv.append(Indivisual())
-        self.ans = 'genetic algorithm'
+        self.ans = 'generic algorithm'
 
     def _compute_fitness(self, indiv):
         fit = 0
